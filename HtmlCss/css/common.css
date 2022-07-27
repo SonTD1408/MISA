@@ -1,0 +1,21 @@
+@import url("/Assets/font/fontawesome-5.15.1/css/all.min.css");
+@import url("/Assets/font/fontawesome-5.15.1/js/all.min.js");
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: GS-Reg;
+}
+
+@font-face {
+    font-family: GS-Reg;
+    src: url(../Assets/font/GoogleSans-Regular.otf);
+}
+@font-face {
+    font-family: GS-Med;
+    src: url(../Assets/font/GoogleSans-Medium.otf);
+}
+@font-face {
+    font-family: GS-Bold;
+    src: url(../Assets/font/GoogleSans-Bold.otf);
+}

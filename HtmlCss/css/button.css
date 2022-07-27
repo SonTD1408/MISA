@@ -1,0 +1,35 @@
+.s-btn{
+    background-color: #019160;
+    border-radius: 4px;
+    height: 40px;
+    font-size: 13px;
+    color: #fff;
+    padding: 0 24px;
+    min-width: 100px;
+    text-align: center;
+    border: 1px solid #019160;
+    cursor: pointer;
+    font-family: GS-Reg;
+}
+.s-btn:hover{
+    background-color: #2FBE8E;
+    border: 1px solid #2FBE8E;
+}
+.s-btn:active{
+    background-color: #01B075;
+    border: 1px solid #01B075;
+}
+
+/* button has icon  */
+.s-btn-has-icon{
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+}
+.s-btn-has-icon .s-btn-icon{
+    background-image: url(../Assets/icon/add.png);
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    padding-right: 8px;
+}

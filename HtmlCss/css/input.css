@@ -1,0 +1,40 @@
+.s-input-box{
+
+}
+.s-input-div1{
+    display: flex;
+    margin-top: 4px;
+}
+.s-input-div2{
+    position: relative;
+}
+.s-input-post-icon{
+    font-size: 16px;
+    padding:  0 4.5px;
+    position: absolute;
+    top: calc(50% - 10px);
+    right: 8px;
+    border-radius: 50%;
+    background-color: #ccc;
+    cursor: pointer;
+}
+.s-input{
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    height: 40px;
+    font-family: GS-Reg;
+    color: #000;
+    font-size: 13px;
+    box-sizing: border-box;
+    padding: 0 16px;
+    outline: none;
+}
+.s-input::placeholder{
+    font-size: 11px;
+    color: #bbbbbb;
+    font-family: GS-Reg;
+}
+.s-input:focus{
+    border: 1px solid #019160;
+}
+
