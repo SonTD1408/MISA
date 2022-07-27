@@ -27,7 +27,7 @@
     align-items: center;
 }
 .s-btn-has-icon .s-btn-icon{
-    background-image: url(../Assets/icon/add.png);
+    background-image: url(../../Assets/icon/add.png);
     background-repeat: no-repeat;
     width: 18px;
     height: 18px;

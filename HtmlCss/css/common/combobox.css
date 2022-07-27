@@ -1,0 +1,57 @@
+.s-input-combobox-box{
+
+}
+.s-input-combobox-div1{
+    display: flex;
+    margin-top: 4px;
+}
+.s-input-combobox-div2{
+    position: relative;
+}
+.s-input-combobox{
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    height: 40px;
+    font-family: GS-Reg;
+    color: #000;
+    font-size: 13px;
+    box-sizing: border-box;
+    padding: 0 16px;
+    outline: none;
+}
+.s-input-combobox::placeholder{
+    font-size: 11px;
+    color: #bbbbbb;
+    font-family: GS-Reg;
+}
+.s-input-combobox:focus{
+    border: 1px solid #019160;
+}
+.s-input-combobox-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 39px;
+    height: 38px;
+    background-color: #bbbbbb;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size: 16px;
+}
+.s-combobox{
+    width: 100%;
+    padding: 4px 0;
+    border-radius: 4px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.36);
+}
+.s-combobox-item{
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+.s-combobox-item:hover{
+    background-color: #E9EBEE;
+}

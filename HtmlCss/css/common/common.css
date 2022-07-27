@@ -1,5 +1,11 @@
+/* font awesome */
 @import url("/Assets/font/fontawesome-5.15.1/css/all.min.css");
 @import url("/Assets/font/fontawesome-5.15.1/js/all.min.js");
+
+/* common css */
+@import url("./button.css");
+@import url("./combobox.css");
+@import url("./input.css");
 
 body{
     margin: 0;
@@ -18,4 +24,14 @@ body{
 @font-face {
     font-family: GS-Bold;
     src: url(../Assets/font/GoogleSans-Bold.otf);
+}
+
+.display-none{
+    display: none;
+}
+.display-block{
+    display: block;
+}
+.display-flex{
+    display: flex;
 }
